@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset= "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=wedge">
+    <meta name="viewport" content="widthwdevice- width, initial -scale=1 .0">
+    <title>Taconauta </title>
+    </head>
+<body bgcolor="yellow">
+    <center>
+        <img src="./assets/img/cherrylogodorado.png" height="500px" width= "1000px" >
+    </center>
+        <div align="center">
+            <a href="./pasteleria.html">Inicio</a>
+            <a href="./pedidopastel.html">Haz tu pedido</a>
+            <a href="./patelero.html">Lista de Pedidos</a>
+        </div>
+    
+    
+        <h1 align=center>Aqui puedes hacer tu pedido del Pastel</h1>
+        <form action="/accion.js" id="form1" method="post">
+            <div align="center">
+                <label for="Input1"> Nombre Completo</label><br>
+                <input type="text" placeholder=" nombre" id="Input1" name="Input1"><br><br>
+    
+                <label for="correo1">Correo electronico</label><br>
+                <input type="email" placeholder="Ejemplo@gmail.com" id="correo1" name="correo1"><br><br>
+    
+                <label for="numero1">Cuantos pasteles</label><br>
+                <input type="number" placeholder="Cantidad" id="numero1" name="numero1"><br><br>
+    
+                <label for="tel1">Numero de telefono</label><br>
+                <input type="tel" placeholder="Telefono a 10 Digitos" id="tel1" name="tel1" maxlength="10"><br><br>
+       
+                <label for="Sabor">Escoge tu sabor</label><br>
+                <select id="Sabor" name="Sabor">
+                    <option value="redv">Red Velvet</option>
+                    <option value="3leches">3 Leches</option>
+                    <option value="Zana">Zanahoria</option>
+                </select><br><br>
+    
+                <label for="decoracion">Escoge tu decoracion</label><br>
+                <select id="decoracion" name="decoracion">
+                    <option value="Ninguno"> Ninguna</option>
+                    <option value="Fondant">Fondant (+ $200)</option>
+                    <option value="Betun">betun</option>
+                    <option value="Espejo">Espejo (+ $500)</option>
+                    <option value="betun2">Crema de Mantequilla</option>
+                </select><br><br>
+    
+                <label for="Input2"> ingresa tu dirección</label><br>
+                <input type="text" placeholder="Calle y numero" id="Input2" name="Input2"><br><br>
+    
+                <label for="Input2"> informacion adicional</label><br>
+                <input type="text" placeholder="Datos o detalles extras" id="Input2" name="Input2"><br><br>
+    
+                <input type="button" id="boton1" name="boton1" value="Enviar pedido"
+                    onclick="alert('Se ha enviado el pedido');"><br><br>
+                <input type="reset"><br>
+        </form>
+        </div>
+    
+    
+</body>
+</html>
